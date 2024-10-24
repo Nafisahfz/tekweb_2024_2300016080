@@ -1,0 +1,47 @@
+a:hover {
+    text-decoration: underline;
+  }
+  
+        html {
+  background-color: #6d8180;
+  }
+        p {
+            color: rgb(54, 73, 72);
+        }
+    .circle-image {
+        width: 50px;
+        height:200px;
+        border-radius: 50%;
+        object-fit: cover;
+        align-items: center; 
+    }
+    body {
+        margin: 0;
+        background: url('A_full-page_background_image_displayed_on_a_webpag.png') no-repeat center center/cover;
+        height: 100vh;
+        color: rgb(32, 32, 32);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .container {
+        text-align: center;
+        background: #518682;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        margin: 20px auto;
+        max-width: 600px;
+    }
+    .img-hias {
+        width: 300px;
+        border-radius: 50%;
+        box-shadow: 0 4px 8px rgba(209, 203, 203, 0.2);
+        transition: box-shadow 0.3s ease;
+    }
+    
+    .img-hias:hover {
+        box-shadow: 0 8px 16px rgba(206, 196, 196, 0.3);
+    }
+    
